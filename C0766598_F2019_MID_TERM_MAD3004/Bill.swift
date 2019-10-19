@@ -7,8 +7,10 @@
 //
 
 import Foundation
-class Bill
+class Bill : IDisplay
 {
+    
+    
     var billID:Int?
     var billDate=String()
     enum Types {
@@ -25,5 +27,11 @@ class Bill
         self.billType=billType
         self.billAmount=billAmount
     }
+    
+    func display() {
+        
+    }
+    
+    
     
 }
