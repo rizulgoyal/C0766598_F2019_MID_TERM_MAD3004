@@ -55,6 +55,8 @@ AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 AddCustomer(customer: customer5)
+
+//fumnction to display all customer values
 //for i in custDict.values
 //{
 //
@@ -62,9 +64,9 @@ AddCustomer(customer: customer5)
 //}
 
 
+
+
 // function to get customer information by passing ID
-
-
 func getById (customerID: Int)
     // restriction (if pass wrong ID)
 {    if custDict.keys.contains(customerID)
@@ -78,6 +80,15 @@ else{
 }
 
 getById(customerID: 3)
+
+
+// sort by customerid
+for i in custDict.keys.sorted()
+{
+    custDict[i]!.display()
+}
+
+
 
 
 
