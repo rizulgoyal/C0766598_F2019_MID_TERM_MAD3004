@@ -55,12 +55,21 @@ AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 AddCustomer(customer: customer5)
-for i in custDict.values
-{
+//for i in custDict.values
+//{
+//
+//    i.display()
+//}
+
+
+// function to get customer information by passing ID
+func getById (customerID: Int){
+
+    custDict[customerID]!.display()
     
-    i.display()
 }
 
+getById(customerID: 3)
 
 
 
