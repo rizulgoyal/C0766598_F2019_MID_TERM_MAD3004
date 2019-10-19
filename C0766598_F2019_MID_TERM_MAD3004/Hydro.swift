@@ -19,4 +19,11 @@ class Hydro:Bill
         self.unitUsage=unitUsage
     }
     
+    override func display() {
+        super.display()
+        print("Agency Name : \(agencyName!)")
+        print("Units Consumed : \(unitUsage!.insertUnits())")
+        
+    }
+    
 }
