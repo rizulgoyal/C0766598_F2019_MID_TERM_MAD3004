@@ -10,5 +10,10 @@ import Foundation
 
 class Customer : Bill
 {
-    
+    var customerID : Int?
+    var customerFName: String?
+    var customerLName : String?
+      var customerEmail: String?
+    var billDictionary = [Int:Bill]()
+    var totalBillAmount : Float?
 }
