@@ -19,7 +19,12 @@ class Internet:Bill {
     
     
     
-    
+    override func display() {
+        super.display()
+        print("Provider Name : \(providerNAME!)")
+        print("Internet Usage : \(internetUsage.insertGB())")
+        
+    }
 
 
 
