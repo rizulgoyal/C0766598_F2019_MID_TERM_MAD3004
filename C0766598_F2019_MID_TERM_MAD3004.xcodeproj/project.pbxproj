@@ -13,6 +13,7 @@
 		9B614D5A235BBD180029A3F5 /* Extension_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D59235BBD180029A3F5 /* Extension_Int.swift */; };
 		9B614D5C235BBE730029A3F5 /* Extension_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D5B235BBE730029A3F5 /* Extension_Date.swift */; };
 		9B614D5E235BBF400029A3F5 /* Extension_Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D5D235BBF400029A3F5 /* Extension_Float.swift */; };
+		9B614D60235BC0480029A3F5 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D5F235BC0480029A3F5 /* Internet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9B614D59235BBD180029A3F5 /* Extension_Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_Int.swift; sourceTree = "<group>"; };
 		9B614D5B235BBE730029A3F5 /* Extension_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_Date.swift; sourceTree = "<group>"; };
 		9B614D5D235BBF400029A3F5 /* Extension_Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_Float.swift; sourceTree = "<group>"; };
+		9B614D5F235BC0480029A3F5 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9B614D55235BBA0F0029A3F5 /* Bill.swift */,
 				9B614D5B235BBE730029A3F5 /* Extension_Date.swift */,
 				9B614D5D235BBF400029A3F5 /* Extension_Float.swift */,
+				9B614D5F235BC0480029A3F5 /* Internet.swift */,
 			);
 			path = C0766598_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				9B614D5E235BBF400029A3F5 /* Extension_Float.swift in Sources */,
 				9B614D5C235BBE730029A3F5 /* Extension_Date.swift in Sources */,
 				9B614D56235BBA0F0029A3F5 /* Bill.swift in Sources */,
+				9B614D60235BC0480029A3F5 /* Internet.swift in Sources */,
 				9B614D5A235BBD180029A3F5 /* Extension_Int.swift in Sources */,
 				9B614D4F235BB65B0029A3F5 /* main.swift in Sources */,
 				9B614D58235BBBE00029A3F5 /* IDisplay.swift in Sources */,
