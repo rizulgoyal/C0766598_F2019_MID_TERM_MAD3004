@@ -19,18 +19,23 @@ class Bill : IDisplay
         case Hydro
     }
     var billType : Types
-    var billAmount:Float?
+    var totalBillAmount:Float?
     
     init(billID:Int,billDate:String,billType:Types,billAmount:Float) {
         self.billID=billID
         self.billDate=billDate
         self.billType=billType
-        self.billAmount=billAmount
+        self.totalBillAmount=billAmount
     }
     
     func display() {
+        print("Bill ID : \(billID!)")
+        print("Bill Date : \(billDate)")
+        print("Bill Type : \(billType)")
+        print("Bill Amount : \(totalBillAmount!)")
         
-    }
+        }
+    
     
     
     
