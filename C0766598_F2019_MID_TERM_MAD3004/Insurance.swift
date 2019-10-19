@@ -30,4 +30,13 @@ class Insurance : Bill
         self.endDate=endDate
     
     }
+    
+    override func display() {
+        super.display()
+        print("Insurance Provider : \(provider!)")
+        print("Insurance Type : \(insuranceType!)")
+        print("Insurance Start Date : \(startDate)")
+        print("Insurance End Date : \(endDate)")
+
+    }
 }
