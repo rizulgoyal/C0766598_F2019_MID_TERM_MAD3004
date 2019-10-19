@@ -20,6 +20,10 @@ class Bill
     var billAmount:Float?
     
     init(billID:Int,billDate:String,billType:Types,billAmount:Float) {
+        self.billID=billID
+        self.billDate=billDate
+        self.billType=billType
+        self.billAmount=billAmount
     }
     
 }
