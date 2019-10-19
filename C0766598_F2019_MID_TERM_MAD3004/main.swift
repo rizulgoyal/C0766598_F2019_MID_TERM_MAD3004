@@ -43,6 +43,18 @@ customer3.addbill(BillObject: internet3)
 customer4.addbill(BillObject: insurance1)
 customer5.display()
 
+var custDict = [Int:Customer]()
+
+func AddCustomer(customer: Customer)
+{
+    custDict.updateValue(customer, forKey: customer.customerID!)
+}
+
+AddCustomer(customer: customer1)
+AddCustomer(customer: customer2)
+AddCustomer(customer: customer3)
+AddCustomer(customer: customer4)
+AddCustomer(customer: customer5)
 
 
 
