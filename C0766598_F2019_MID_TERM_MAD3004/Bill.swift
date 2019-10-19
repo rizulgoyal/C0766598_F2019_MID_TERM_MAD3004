@@ -21,6 +21,13 @@ class Bill : IDisplay
     var billType : Types
     var totalBillAmount:Float?
     
+    var newDate:Date
+    {
+        let dateformatter=DateFormatter()
+        dateformatter.dateFormat="MM/dd/yyyy"
+        return dateformatter.date(from: billDate)!
+    }
+    
     init(billID:Int,billDate:String,billType:Types,billAmount:Float) {
         self.billID=billID
         self.billDate=billDate
