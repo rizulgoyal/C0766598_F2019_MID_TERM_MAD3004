@@ -33,6 +33,18 @@ var customer2 = Customer(customerID: 2, customerFName: "Anmol", customerLName: "
 var customer3 = Customer(customerID: 3, customerFName: "Kuldeep", customerLName: "Singh", customerEmail: "kuldeep321@gmail.com ")
 var customer4 = Customer(customerID: 4, customerFName: "Harpreet", customerLName: "Singh", customerEmail: "har5677@gmail.com ")
 var customer5 = Customer(customerID: 5, customerFName: "Ritik", customerLName: "Gupta", customerEmail: "ritik098@gmail.com ")
+customer1.addbill(BillObject: internet1)
+customer1.addbill(BillObject: mobile1)
+customer1.addbill(BillObject: hydro1)
+customer2.addbill(BillObject: internet2)
+customer2.addbill(BillObject: insurance2)
+customer3.addbill(BillObject: hydro2)
+customer3.addbill(BillObject: internet3)
+customer4.addbill(BillObject: insurance1)
+
+
+
+
 
 
 
