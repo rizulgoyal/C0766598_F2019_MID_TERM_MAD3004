@@ -9,5 +9,13 @@
 import Foundation
 class Bill
 {
+    var billID:Int?
+    var billDate=String()
+    enum Types {
+        case Internet
+        case Mobile
+        case Hydro
+    }
+    
     
 }
