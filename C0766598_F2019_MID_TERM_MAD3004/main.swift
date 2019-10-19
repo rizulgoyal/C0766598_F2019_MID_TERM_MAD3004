@@ -49,6 +49,7 @@ func AddCustomer(customer: Customer)
     custDict.updateValue(customer, forKey: customer.customerID!)
 }
 
+
 AddCustomer(customer: customer1)
 AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)

@@ -32,6 +32,19 @@ class Customer
         billDictionary.updateValue(BillObject, forKey: BillObject.billID!)
     }
     
+    func calcTotal() -> Float
+    {
+        var sum: Float = 0.0
+        
+        for j in billDictionary.values
+        {
+            sum += j.billAmount!
+            
+            
+        }
+        return sum
+    }
+    
     func display() {
         print("Customer ID : \(customerID!)")
         print("Customer Full Name : \(fullName) ")
@@ -56,6 +69,7 @@ class Customer
                 
             }
         }
+        
         }
     
     
