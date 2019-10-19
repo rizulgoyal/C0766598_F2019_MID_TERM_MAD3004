@@ -20,6 +20,19 @@ class Insurance : Bill
     var startDate = String()
     var endDate = String()
     var totalAmountYearly = Float()
+    
+    var newStartDate:Date
+    {
+        let dateformatter=DateFormatter()
+        dateformatter.dateFormat="MM/dd/yyyy"
+        return dateformatter.date(from: startDate)!
+    }
+    var newEndDate:Date
+    {
+        let dateformatter=DateFormatter()
+        dateformatter.dateFormat="MM/dd/yyyy"
+        return dateformatter.date(from: endDate)!
+    }
 
     init(billID: Int, billDate: String, billType: Types, billAmount: Float,
                   provider:String,insuranceType:TypeIns,startDate:String,endDate:String) {
