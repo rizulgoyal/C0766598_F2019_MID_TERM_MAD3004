@@ -27,6 +27,15 @@ class Customer
         self.customerEmail=customerEmail
     }
     
+    func addbill(BillObject: Bill)
+    {
+        billDictionary.updateValue(BillObject, forKey: BillObject.billID!)
+    }
+    
+    
+    
+    
+    
     
     
 }

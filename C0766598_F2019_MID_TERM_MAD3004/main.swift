@@ -15,22 +15,19 @@ var internet2 = Internet(billID: 002, billDate: "08/16/2019", billType: .Interne
 var internet3 = Internet(billID: 003, billDate: "02/23/2018", billType: .Internet, totalAmount: 321.87, providerName: "Fido", internet: 78)
 
 
-internet1.display()
 
 var mobile1 = Mobile(billID: 101, billDate: "06/30/2019", billType: .Mobile, totalAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Premium Plus", mobileInternet: 34, mobileMinute: 567)
 
-mobile1.display()
 
 var hydro1 = Hydro(billID: 201, billDate: "07/18/2019", billType: .Hydro, totalAmount: 106.765, agencyName: "Water Canada", unitUsage: 190)
 var hydro2  = Hydro(billID: 202 , billDate: "09/25/2018", billType: .Hydro, totalAmount: 186.78      , agencyName: "Util Air Brampton", unitUsage: 167)
 
-hydro1.display()
 
 var insurance1 = Insurance(billID: 301, billDate: "06/28/2019", billType: .Insurance, billAmount: 365.254, provider: "Desjardians", insuranceType: .Car, startDate: "01/05/2019", endDate: "04/30/2020")
 
 var insurance2 = Insurance(billID: 302, billDate: "08/14/2019", billType: .Insurance, billAmount: 136.15, provider: "TD Bank", insuranceType: .Home, startDate: "01/08/2019", endDate: "07/28/2020")
-insurance1.display()
-insurance2.display()
+
+
 
 
 
