@@ -10,4 +10,13 @@ import Foundation
 
 extension Int{
     
+    func insertGB()-> String{
+        return "\(self) GB"
+    }
+    func insertUnits()-> String{
+        return "\(self) Units"
+    }
+    func insertMin()-> String{
+        return "\(self) Minutes"
+    }
 }
