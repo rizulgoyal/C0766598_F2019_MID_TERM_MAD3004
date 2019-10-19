@@ -17,6 +17,7 @@ class Bill : IDisplay
         case Internet
         case Mobile
         case Hydro
+        case Insurance
     }
     var billType : Types
     var billAmount:Float?

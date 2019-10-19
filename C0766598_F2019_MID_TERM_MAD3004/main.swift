@@ -26,6 +26,9 @@ var hydro2  = Hydro(billID: 202 , billDate: "09/25/2018", billType: .Hydro, tota
 
 hydro1.display()
 
+var insurance1 = Insurance(billID: 301, billDate: "06/28/2019", billType: .Insurance, billAmount: 365.254, provider: "Desjardians", insuranceType: .Car, startDate: "01/05/2019", endDate: "04/30/2020")
+insurance1.display()
+
 
 
 

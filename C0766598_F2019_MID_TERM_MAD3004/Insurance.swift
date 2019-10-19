@@ -29,9 +29,9 @@ class Insurance : Bill
     }
     var newEndDate:Date
     {
-        let dateformatter=DateFormatter()
-        dateformatter.dateFormat="MM/dd/yyyy"
-        return dateformatter.date(from: endDate)!
+        let newdateformatter=DateFormatter()
+        newdateformatter.dateFormat="MM/dd/yyyy"
+        return newdateformatter.date(from: endDate)!
     }
 
     init(billID: Int, billDate: String, billType: Types, billAmount: Float,
