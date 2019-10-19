@@ -10,5 +10,16 @@ import Foundation
 
 class Insurance : Bill
 {
+    enum TypeIns {
+        case Home
+        case Car
+        case Business
+    }
+    var insuranceType : TypeIns!
+    var provider : String?
+    var startDate = String()
+    var endDate = String()
+    var totalAmountYearly = Float()
+
     
 }
