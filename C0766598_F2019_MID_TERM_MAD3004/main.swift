@@ -41,7 +41,6 @@ customer2.addbill(BillObject: insurance2)
 customer3.addbill(BillObject: hydro2)
 customer3.addbill(BillObject: internet3)
 customer4.addbill(BillObject: insurance1)
-customer5.display()
 
 var custDict = [Int:Customer]()
 
@@ -55,6 +54,12 @@ AddCustomer(customer: customer2)
 AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 AddCustomer(customer: customer5)
+for i in custDict.values
+{
+    
+    i.display()
+}
+
 
 
 
