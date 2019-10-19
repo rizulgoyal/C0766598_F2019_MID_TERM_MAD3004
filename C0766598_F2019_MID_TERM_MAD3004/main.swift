@@ -21,6 +21,11 @@ var mobile1 = Mobile(billID: 101, billDate: "06/30/2019", billType: .Mobile, tot
 
 mobile1.display()
 
+var hydro1 = Hydro(billID: 201, billDate: "07/18/2019", billType: .Hydro, totalAmount: 106.765, agencyName: "Water Canada", unitUsage: 190)
+var hydro2  = Hydro(billID: 202 , billDate: "09/25/2018", billType: .Hydro, totalAmount: 186.78      , agencyName: "Util Air Brampton", unitUsage: 167)
+
+hydro1.display()
+
 
 
 
