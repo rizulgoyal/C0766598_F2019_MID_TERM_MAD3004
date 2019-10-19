@@ -63,9 +63,17 @@ AddCustomer(customer: customer5)
 
 
 // function to get customer information by passing ID
-func getById (customerID: Int){
 
+
+func getById (customerID: Int)
+    // restriction (if pass wrong ID)
+{    if custDict.keys.contains(customerID)
+{
     custDict[customerID]!.display()
+}
+else{
+    print("This Customer doesnot Exsist")
+    }
     
 }
 

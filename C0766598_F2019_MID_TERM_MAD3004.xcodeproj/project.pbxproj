@@ -77,19 +77,35 @@
 		9B614D4D235BB65B0029A3F5 /* C0766598_F2019_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B614D6A235BD2FD0029A3F5 /* Extensions */,
+				9B614D69235BD2930029A3F5 /* Bill Classes */,
 				9B614D4E235BB65B0029A3F5 /* main.swift */,
-				9B614D59235BBD180029A3F5 /* Extension_Int.swift */,
-				9B614D57235BBBE00029A3F5 /* IDisplay.swift */,
-				9B614D55235BBA0F0029A3F5 /* Bill.swift */,
-				9B614D5B235BBE730029A3F5 /* Extension_Date.swift */,
-				9B614D5D235BBF400029A3F5 /* Extension_Float.swift */,
-				9B614D5F235BC0480029A3F5 /* Internet.swift */,
-				9B614D61235BC1620029A3F5 /* Mobile.swift */,
-				9B614D63235BC2390029A3F5 /* Hydro.swift */,
-				9B614D65235BC2F00029A3F5 /* Insurance.swift */,
 				9B614D67235BC53C0029A3F5 /* Customer.swift */,
+				9B614D57235BBBE00029A3F5 /* IDisplay.swift */,
 			);
 			path = C0766598_F2019_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9B614D69235BD2930029A3F5 /* Bill Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B614D65235BC2F00029A3F5 /* Insurance.swift */,
+				9B614D63235BC2390029A3F5 /* Hydro.swift */,
+				9B614D61235BC1620029A3F5 /* Mobile.swift */,
+				9B614D5F235BC0480029A3F5 /* Internet.swift */,
+				9B614D55235BBA0F0029A3F5 /* Bill.swift */,
+			);
+			path = "Bill Classes";
+			sourceTree = "<group>";
+		};
+		9B614D6A235BD2FD0029A3F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B614D59235BBD180029A3F5 /* Extension_Int.swift */,
+				9B614D5D235BBF400029A3F5 /* Extension_Float.swift */,
+				9B614D5B235BBE730029A3F5 /* Extension_Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
