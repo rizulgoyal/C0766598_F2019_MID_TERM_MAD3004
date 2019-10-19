@@ -38,6 +38,14 @@ class Customer
         print("Customer Email: \(customerEmail!)")
         print("     -  Billing Information - ")
         print("**********************************")
+        
+        if billDictionary.isEmpty
+        {
+            print("NOTE : This Customer has no Bills to pay")
+        }
+        else
+        {
+            
         for i in billDictionary.values
                 
             {
@@ -47,6 +55,7 @@ class Customer
                 print("**********************************")
                 
             }
+        }
         }
     
     

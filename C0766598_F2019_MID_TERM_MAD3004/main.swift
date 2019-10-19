@@ -41,7 +41,7 @@ customer2.addbill(BillObject: insurance2)
 customer3.addbill(BillObject: hydro2)
 customer3.addbill(BillObject: internet3)
 customer4.addbill(BillObject: insurance1)
-
+customer5.display()
 
 
 
