@@ -69,6 +69,9 @@ class Customer
                 
             }
         }
+        print("Total Bill Amount to Pay : \(calcTotal().insertCurrency())")
+        print("**********************************")
+        
         
         }
     
