@@ -17,6 +17,7 @@
 		9B614D62235BC1620029A3F5 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D61235BC1620029A3F5 /* Mobile.swift */; };
 		9B614D64235BC2390029A3F5 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D63235BC2390029A3F5 /* Hydro.swift */; };
 		9B614D66235BC2F00029A3F5 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D65235BC2F00029A3F5 /* Insurance.swift */; };
+		9B614D68235BC53C0029A3F5 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B614D67235BC53C0029A3F5 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9B614D61235BC1620029A3F5 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B614D63235BC2390029A3F5 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B614D65235BC2F00029A3F5 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		9B614D67235BC53C0029A3F5 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				9B614D61235BC1620029A3F5 /* Mobile.swift */,
 				9B614D63235BC2390029A3F5 /* Hydro.swift */,
 				9B614D65235BC2F00029A3F5 /* Insurance.swift */,
+				9B614D67235BC53C0029A3F5 /* Customer.swift */,
 			);
 			path = C0766598_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				9B614D64235BC2390029A3F5 /* Hydro.swift in Sources */,
 				9B614D5A235BBD180029A3F5 /* Extension_Int.swift in Sources */,
 				9B614D4F235BB65B0029A3F5 /* main.swift in Sources */,
+				9B614D68235BC53C0029A3F5 /* Customer.swift in Sources */,
 				9B614D58235BBBE00029A3F5 /* IDisplay.swift in Sources */,
 				9B614D66235BC2F00029A3F5 /* Insurance.swift in Sources */,
 				9B614D62235BC1620029A3F5 /* Mobile.swift in Sources */,
