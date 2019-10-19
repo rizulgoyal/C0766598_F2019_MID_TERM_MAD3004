@@ -17,5 +17,12 @@ var internet3 = Internet(billID: 003, billDate: "02/23/2018", billType: .Interne
 
 internet1.display()
 
+var mobile1 = Mobile(billID: 101, billDate: "06/30/2019", billType: .Mobile, totalAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Premium Plus", mobileInternet: 34, mobileMinute: 567)
+
+mobile1.display()
+
+
+
+
 
 
