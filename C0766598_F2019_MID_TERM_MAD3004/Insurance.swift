@@ -21,5 +21,13 @@ class Insurance : Bill
     var endDate = String()
     var totalAmountYearly = Float()
 
+    init(billID: Int, billDate: String, billType: Types, billAmount: Float,
+                  provider:String,insuranceType:TypeIns,startDate:String,endDate:String) {
+        super.init(billID: billID, billDate: billDate, billType: billType, billAmount: billAmount)
+    self.provider=provider
+        self.insuranceType=insuranceType
+        self.startDate=startDate
+        self.endDate=endDate
     
+    }
 }
