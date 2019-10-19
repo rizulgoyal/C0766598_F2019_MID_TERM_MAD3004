@@ -28,6 +28,14 @@ var insurance1 = Insurance(billID: 301, billDate: "06/28/2019", billType: .Insur
 var insurance2 = Insurance(billID: 302, billDate: "08/14/2019", billType: .Insurance, billAmount: 136.15, provider: "TD Bank", insuranceType: .Home, startDate: "01/08/2019", endDate: "07/28/2020")
 
 
+var customer1 = Customer(customerID: 1, customerFName: "Rizul", customerLName: "Goyal", customerEmail: "rizulgoyal23@gmail.com ")
+var customer2 = Customer(customerID: 2, customerFName: "Anmol", customerLName: "Sharma", customerEmail: "anmol123@gmail.com ")
+var customer3 = Customer(customerID: 3, customerFName: "Kuldeep", customerLName: "Singh", customerEmail: "kuldeep321@gmail.com ")
+var customer4 = Customer(customerID: 4, customerFName: "Harpreet", customerLName: "Singh", customerEmail: "har5677@gmail.com ")
+
+
+
+
 
 
 
