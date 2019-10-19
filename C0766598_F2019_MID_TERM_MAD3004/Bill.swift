@@ -16,6 +16,10 @@ class Bill
         case Mobile
         case Hydro
     }
+    var billType : Types
+    var billAmount:Float?
     
+    init(billID:Int,billDate:String,billType:Types,billAmount:Float) {
+    }
     
 }
