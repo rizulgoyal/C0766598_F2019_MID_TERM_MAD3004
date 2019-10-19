@@ -32,6 +32,23 @@ class Customer
         billDictionary.updateValue(BillObject, forKey: BillObject.billID!)
     }
     
+    func display() {
+        print("Customer ID : \(customerID!)")
+        print("Customer Full Name : \(fullName) ")
+        print("Customer Email: \(customerEmail!)")
+        print("     -  Billing Information - ")
+        print("**********************************")
+        for i in billDictionary.values
+                
+            {
+                
+                
+                i.display()
+                print("**********************************")
+                
+            }
+        }
+    
     
     
     
