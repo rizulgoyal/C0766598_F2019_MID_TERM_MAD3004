@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Customer : Bill
+class Customer
 {
     var customerID : Int?
     var customerFName: String?
@@ -20,5 +20,11 @@ class Customer : Bill
     var billDictionary = [Int:Bill]()
     var totalBillAmount : Float?
     
+    init(customerID:Int,customerFName: String,customerLName:String,customerEmail:String) {
+        self.customerID=customerID
+        self.customerFName=customerFName
+        self.customerLName=customerLName
+        self.customerEmail=customerEmail
+    }
     
 }
