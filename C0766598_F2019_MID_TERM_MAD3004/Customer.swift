@@ -13,7 +13,12 @@ class Customer : Bill
     var customerID : Int?
     var customerFName: String?
     var customerLName : String?
+    var fullName : String{
+        return customerFName! + " " + customerLName!
+    }
       var customerEmail: String?
     var billDictionary = [Int:Bill]()
     var totalBillAmount : Float?
+    
+    
 }
