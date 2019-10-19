@@ -10,5 +10,9 @@ import Foundation
 
 class Mobile:Bill
 {
-    
+    var mobileModel:String?
+    var mobileNumber: Int?
+    var planName:String?
+    var mobileInternet:Int?
+    var mobileMinute:Int?
 }
