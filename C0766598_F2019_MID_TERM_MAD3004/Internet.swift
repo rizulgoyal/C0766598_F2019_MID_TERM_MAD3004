@@ -10,4 +10,18 @@ import Foundation
 class Internet:Bill {
     var providerNAME:String?
     var internetUsage = Int()
+    
+    init(billID: Int, billDate: String, billType: Types, totalAmount: Float,providerName:String,internet:Int) {
+        super.init(billID: billID, billDate: billDate, billType: billType, billAmount: totalAmount)
+        self.internetUsage=internet
+        self.providerNAME=providerName
+    }
+    
+    
+    
+    
+
+
+
+
 }
