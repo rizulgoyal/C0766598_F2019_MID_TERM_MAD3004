@@ -56,13 +56,27 @@ AddCustomer(customer: customer3)
 AddCustomer(customer: customer4)
 AddCustomer(customer: customer5)
 
-//fumnction to display all customer values
-//for i in custDict.values
-//{
-//
-//    i.display()
-//}
 
+
+print("***************************************************************")
+print(" Getting All Customer Information  by Sorting Customer  ID ")
+
+// sort by customerid
+
+for i in custDict.keys.sorted()
+{
+    custDict[i]!.display()
+}
+
+
+print("#############      New Output      ##############")
+print(" Getting Bill by passing Bill Number ")
+
+customer1.getbyBill(BillObject: 201)
+
+print("#############      New Output      ##############")
+print(" Getting Bill by passing Wrong Bill  Number ")
+customer1.getbyBill(BillObject: 501)
 
 
 
@@ -79,25 +93,14 @@ else{
     
 }
 
+
+print("#############      New Output      ##############")
+print(" Getting Bill by passing Single Customer ID ")
+
 getById(customerID: 3)
 
 
-// sort by customerid
-
-for i in custDict.keys.sorted()
-{
-    custDict[i]!.display()
-}
-
-
-print("***************************************************************")
-print(" Getting Bill by passing Bill Number ")
-
-customer1.getbyBill(BillObject: 201)
-
-print("***************************************************************")
-print(" Getting Bill by passing Wrong Bill  Number ")
-customer1.getbyBill(BillObject: 501)
+print("#############      New Output      ##############")
 
 
 
