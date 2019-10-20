@@ -20,7 +20,14 @@ class Insurance : Bill
     var startDate = String()
     var endDate = String()
     var insuranceTime : Int?
-    var totalAmountYearly = Float()
+    var totalAmountYearly : Float?
+    
+    func calctotalbill()-> Float
+    {
+        return super.billAmount!*12
+    }
+        
+        
     
     var newStartDate:Date
     {
@@ -52,7 +59,7 @@ class Insurance : Bill
         print("Insurance Type : \(insuranceType!)")
         print("Insurance Start Date : \(newStartDate.insertDate())")
         print("Insurance End Date : \(newEndDate.insertDate())")
-        
-        print("Total Payable ")
+        print("Insurance In Days: \(insuranceTime!)")
+        print("Total Payable is \(calctotalbill().insertCurrency())")
     }
 }

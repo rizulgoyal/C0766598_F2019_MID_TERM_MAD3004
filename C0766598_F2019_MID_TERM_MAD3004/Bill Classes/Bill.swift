@@ -22,6 +22,7 @@ class Bill : IDisplay
     var billType : Types
     var billAmount:Float?
     
+   
     var newDate:Date
     {
         let dateformatter=DateFormatter()
