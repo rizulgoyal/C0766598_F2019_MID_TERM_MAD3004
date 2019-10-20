@@ -16,7 +16,7 @@ var internet3 = Internet(billID: 003, billDate: "02/23/2018", billType: .Interne
 
 
 
-var mobile1 = Mobile(billID: 101, billDate: "06/30/2019", billType: .Mobile, totalAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 9876543210, planName: "Premium Plus", mobileInternet: 34, mobileMinute: 567)
+var mobile1 = Mobile(billID: 101, billDate: "06/30/2019", billType: .Mobile, totalAmount: 256.98, mobileModel: "Samsung S8 Pro", mobileNumber: 98765343210, planName: "Premium Plus", mobileInternet: 34, mobileMinute: 567)
 
 
 var hydro1 = Hydro(billID: 201, billDate: "07/18/2019", billType: .Hydro, totalAmount: 106.765, agencyName: "Water Canada", unitUsage: 190)
@@ -83,10 +83,14 @@ getById(customerID: 3)
 
 
 // sort by customerid
+
 for i in custDict.keys.sorted()
 {
     custDict[i]!.display()
 }
+
+
+
 
 
 

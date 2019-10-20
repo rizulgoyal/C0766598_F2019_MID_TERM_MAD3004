@@ -32,6 +32,8 @@ class Customer
         billDictionary.updateValue(BillObject, forKey: BillObject.billID!)
     }
     
+    
+    // function for total amount
     func calcTotal() -> Float
     {
         var sum: Float = 0.0
@@ -44,6 +46,23 @@ class Customer
         }
         return sum
     }
+    
+    func getbyBill (BillObject : Int)
+    {
+        
+            if billDictionary.keys.contains(BillObject)
+            {
+                billDictionary[BillObject]?.display()
+        }
+            else{
+                print("No Bill Found with Given Index ")
+        }
+            
+            
+        
+        }
+    
+    
     
     func display() {
         print("Customer ID : \(customerID!)")

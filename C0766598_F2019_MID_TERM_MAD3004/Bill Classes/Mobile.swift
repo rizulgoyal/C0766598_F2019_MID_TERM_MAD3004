@@ -31,16 +31,9 @@ class Mobile:Bill
         super.display()
         print("Manufacturer Name : \(mobileModel!)")
         print("Plan Name : \(planName!)")
-        let newM = [mobileNumber]
-        if newM.count > 10
-        {
-            print("Please Enter only 10 Digits (Invalid Number)")
-        }else
-        {
         print("Mobile Number : \(mobileNumber!)")
-        }
         print("Internet Usage : \(mobileInternet!.insertGB())")
         print("Minute Usage : \(mobileMinute!.insertMin())")
-        
+                
     }
 }
