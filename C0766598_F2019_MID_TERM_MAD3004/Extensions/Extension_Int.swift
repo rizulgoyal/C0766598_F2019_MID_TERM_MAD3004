@@ -19,4 +19,7 @@ extension Int{
     func insertMin()-> String{
         return "\(self) Minutes"
     }
+    func insertDays()-> String{
+        return "\(self) Days"
+    }
 }

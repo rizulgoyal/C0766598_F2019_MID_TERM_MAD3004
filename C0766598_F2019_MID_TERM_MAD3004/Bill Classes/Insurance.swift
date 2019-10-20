@@ -59,7 +59,7 @@ class Insurance : Bill
         print("Insurance Type : \(insuranceType!)")
         print("Insurance Start Date : \(newStartDate.insertDate())")
         print("Insurance End Date : \(newEndDate.insertDate())")
-        print("Insurance In Days: \(insuranceTime!)")
+        print("Insurance In Days: \(insuranceTime!.insertDays())")
         print("Total Payable is \(calctotalbill().insertCurrency())")
     }
 }
