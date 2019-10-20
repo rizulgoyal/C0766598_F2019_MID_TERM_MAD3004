@@ -19,6 +19,7 @@ class Insurance : Bill
     var provider : String?
     var startDate = String()
     var endDate = String()
+    var insuranceTime : Int?
     var totalAmountYearly = Float()
     
     var newStartDate:Date
@@ -35,12 +36,13 @@ class Insurance : Bill
     }
 
     init(billID: Int, billDate: String, billType: Types, billAmount: Float,
-                  provider:String,insuranceType:TypeIns,startDate:String,endDate:String) {
+         provider:String,insuranceType:TypeIns,startDate:String,endDate:String, insuranceTime: Int) {
         super.init(billID: billID, billDate: billDate, billType: billType, billAmount: billAmount)
     self.provider=provider
         self.insuranceType=insuranceType
         self.startDate=startDate
         self.endDate=endDate
+        self.insuranceTime=insuranceTime
     
     }
     
@@ -51,5 +53,6 @@ class Insurance : Bill
         print("Insurance Start Date : \(newStartDate.insertDate())")
         print("Insurance End Date : \(newEndDate.insertDate())")
         
+        print("Total Payable ")
     }
 }

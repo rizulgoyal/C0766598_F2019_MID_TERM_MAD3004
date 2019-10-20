@@ -23,9 +23,9 @@ var hydro1 = Hydro(billID: 201, billDate: "07/18/2019", billType: .Hydro, totalA
 var hydro2  = Hydro(billID: 202 , billDate: "09/25/2018", billType: .Hydro, totalAmount: 186.78      , agencyName: "Util Air Brampton", unitUsage: 167)
 
 
-var insurance1 = Insurance(billID: 301, billDate: "06/28/2019", billType: .Insurance, billAmount: 365.254, provider: "Desjardians", insuranceType: .Car, startDate: "01/05/2019", endDate: "04/30/2020")
+var insurance1 = Insurance(billID: 301, billDate: "06/28/2019", billType: .Insurance, billAmount: 365.254, provider: "Desjardians", insuranceType: .Car, startDate: "01/05/2019", endDate: "04/30/2020",insuranceTime: 364)
 
-var insurance2 = Insurance(billID: 302, billDate: "08/14/2019", billType: .Insurance, billAmount: 136.15, provider: "TD Bank", insuranceType: .Home, startDate: "01/08/2019", endDate: "07/28/2020")
+var insurance2 = Insurance(billID: 302, billDate: "08/14/2019", billType: .Insurance, billAmount: 136.15, provider: "TD Bank", insuranceType: .Home, startDate: "01/08/2019", endDate: "07/28/2020",insuranceTime: 364)
 
 
 var customer1 = Customer(customerID: 1, customerFName: "Rizul", customerLName: "Goyal", customerEmail: "rizulgoyal23@gmail.com ")
@@ -93,14 +93,17 @@ else{
     
 }
 
+print(" Getting Bill by passing Single Customer ID ")
 
 print("#############      New Output      ##############")
-print(" Getting Bill by passing Single Customer ID ")
 
 getById(customerID: 3)
 
+print(" customer with No Bill to pay ")
 
 print("#############      New Output      ##############")
+
+getById(customerID: 5)
 
 
 
