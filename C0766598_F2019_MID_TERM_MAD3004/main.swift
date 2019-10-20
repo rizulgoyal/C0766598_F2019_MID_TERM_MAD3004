@@ -90,6 +90,14 @@ for i in custDict.keys.sorted()
 }
 
 
+print("***************************************************************")
+print(" Getting Bill by passing Bill Number ")
+
+customer1.getbyBill(BillObject: 201)
+
+print("***************************************************************")
+print(" Getting Bill by passing Wrong Bill  Number ")
+customer1.getbyBill(BillObject: 501)
 
 
 
